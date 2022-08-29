@@ -63,3 +63,56 @@ console.log(2 * PI * r);
 // Вывод последнего символа
 // let str = 'asdfghjlk';
 // console.log(str[str.length - 1]);
+
+// let a = 'asdfghjklkjhgfxcvbnm';
+// alert(a[a.length - 2]);
+
+// let b = '12345';
+// alert(Number(b[0]) + Number(b[1]) + Number(b[2]) + Number(b[3]) + Number(b[4]));
+
+// let a = 12345;
+// let str = String(a);
+// console.log(Number(str[0]) + Number(str[1]) + Number(str[2]) + Number(str[3]) + Number(str[4]));
+
+// let a = 12345;
+// let str = String(a);
+// console.log(str[0] * str[1] * str[2] * str[3] * str[4]);
+
+// let a = 12345;
+// let str = String(a);
+// console.log(Number(str[4] + str[3] + str[2] + str[1] + str[0]));
+// alert(Number(str[4] + str[3] + str[2] + str[1] + str[0]));
+
+// let num = 47;
+// num += 7;
+// num -= 18;
+// num *= 10;
+// num /= 15;
+// alert(num);
+
+// let num = 10;
+// num++;
+// num++;
+// num--;
+// alert(num);
+
+// let num1 = 0;
+// let num2 = ++num1; // в переменную num2 запишется 1 
+// alert(num2); // выведет 1
+// alert(num1);
+
+// let num1 = 3;
+// let num2 = num1++;
+// alert(num1); //4
+// alert(num2); //3
+
+// let num1 = 3;
+// let num2 = --num1;
+// alert(num1); //2
+// alert(num2); //2
+
+// let a = (0.1 * 0.2);
+// console.log(+a.toFixed(2))
+
+// alert(0.3 - 0.1);
+
