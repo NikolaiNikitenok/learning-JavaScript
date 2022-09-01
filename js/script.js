@@ -25,9 +25,9 @@
 // alert(1/0);
 // console.log(-1/0);
 
-const PI = 3.14;
-let r = 10;
-console.log(2 * PI * r);
+// const PI = 3.14;
+// let r = 10;
+// console.log(2 * PI * r);
 
 // let a = '5' * '1' + '2' * '1';
 // alert(a);
@@ -115,4 +115,109 @@ console.log(2 * PI * r);
 // console.log(+a.toFixed(2))
 
 // alert(0.3 - 0.1);
+
+// let a = prompt('Your age? ');
+// alert('Your age: ' + a);
+
+// let num1 = Number(prompt('Введите первое число'));
+// let num2 = Number(prompt('Введите второе число'));
+
+// alert(num1 + num2); // сложит числа как строки
+
+// let a = Number(prompt('Сторона квадрата: '));
+// alert('Площадь квадрата: ' + a * a);
+
+// let a = Number(prompt('Сторона прямоугольника: '));
+// let b = Number(prompt('Вторая сторона прямоугольника: '));
+// alert("Площадь прямоугольника: " + a * b);
+
+// document.write(123);
+
+// document.write('text');
+
+// document.write('<b>text</b>');
+
+// let str = 'text';
+// document.write(str);
+
+// let str = 'text';
+// document.write('<b>' + str + '</b>'); 
+
+// document.write('text <br> text');
+
+// document.write('text1<br>');
+// document.write('text2<br>');
+// document.write('text3<br>');
+
+// document.write('text');
+// document.write('<br>');
+// document.write('text');
+
+// document.write('<i>Textik</i>')
+
+// document.write('1<br>')
+// document.write('2<br>')
+// document.write('3<br>')
+// document.write('4<br>')
+// document.write('5<br>')
+
+// let num1 = 1;
+// let num2 = 2;
+// console.log('сумма: ', num1 + num2);
+
+// let a = 1;
+// let b = 2;
+// console.log(a + b);
+
+// let num = '123';
+// let sum = +num[0] + +num[1] + +num[2];
+// console.log(sum);
+
+// let num = '123';
+// console.log(num[0]);
+
+// let a = 0;
+// console.log(++a);
+
+// let num = '123';
+// console.log(num.length);
+
+// let a = 24 * 60 * 60;
+// console.log(a);
+
+// let num = 123;
+// let str = String(num);
+// console.log(str.length);
+
+// let num = 123;
+// let str = String(num);
+// console.log(str[str.length - 1]);
+
+// let num = 123;
+// let str = String(num);
+// console.log(str.length);
+
+// let num = 123;
+// let str = String(num);
+// console.log(str[str.length - 1]);
+
+// let a = '123';
+// let b = '456';
+// let s = Number(a) + Number(b);
+
+// console.log(s);
+
+// let aaa = 1;
+// let bbb = 2;
+// let ccc = 3;
+
+// console.log(aaa + bbb + ccc);
+
+// console.log(24*60*365);
+
+// console.log(1024*1024);
+
+let r = +prompt('Введи радиус: ');
+let PI = 3.14;
+alert('Площадь круга = ' + 2 * PI * r);
 
